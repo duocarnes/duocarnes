@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duo Carnes | Premium Selection</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Global Noise Overlay -->
+    <div class="noise-overlay"></div>
+
+    <!-- Section 1: Sticky Nav -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="logo/estilo1_img.jpeg" alt="Duo Carnes Logo" class="logo-img">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#catalogo">Catálogo</a></li>
+                <li><a href="#diferencial">Diferencial</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <a href="#contacto" class="btn btn-nav">Consultar</a>
+            
+            <div class="mobile-menu-btn" id="mobile-btn">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section 2: Hero -->
+    <section class="hero bg-odd hero-marble" id="hero">
+        <div class="hero-radial-glow"></div>
+        <div class="hero-content fade-in">
+            <div class="hero-left">
+                <img src="logo/estilo1_img.jpeg" alt="Duo Carnes Premium" class="hero-logo-large">
+            </div>
+            <div class="hero-right">
+                <div class="hero-badge">Selección Premium · Cortes de Elite</div>
+                <h1 class="hero-title">
+                    Calidad<br>
+                    <span class="hero-title-italic">Superior.</span>
+                </h1>
+                <p class="hero-subtitle">Sabor Excepcional.</p>
+                <p class="hero-desc">Cortes cuidadosamente seleccionados, presentación premium y una marca comprometida con la calidad, la confianza y la excelencia en cada producto.</p>
+                <div class="hero-actions">
+                    <a href="#catalogo" class="btn btn-gold-fill">Ver Catálogo</a>
+                    <a href="#contacto" class="btn btn-outline">Contactar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divider WA 1 -->
+    <div class="wa-divider fade-in">
+        <a href="#contacto" class="btn btn-wa">¡Quiero mi corte premium!</a>
+    </div>
+
+    <!-- Section 3: Cortes Sugeridos -->
+    <section class="gallery bg-even" id="sugeridos">
+        <div class="gallery-grid fade-in" style="grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; max-width: 1200px; margin: 0 auto;">
+            <!-- Card 1: Roast Beef -->
+            <div class="gallery-item" style="display: flex; flex-direction: column; background: #0a0a0a; border: 1px solid rgba(201,168,76,0.2); border-radius: 8px; overflow: hidden; height: 100%;">
+                <div style="width: 100%; height: 260px; overflow: hidden;">
+                    <img src="corte/af8daa1e-643c-4410-904d-133acb3d1d66.png" alt="Roast Beef" style="width: 100%; height: 100%; object-fit: cover; object-position: center; border: none; display: block;">
+                </div>
+                <div style="padding: 24px; background: #050505; display: flex; flex-direction: column; flex-grow: 1;">
+                    <div style="align-self: flex-start; border: 1px solid #c9a84c; color: #c9a84c; font-size: 10px; font-weight: 600; padding: 4px 8px; border-radius: 4px; letter-spacing: 1px; margin-bottom: 12px; text-transform: uppercase;">Envasado al Vacío</div>
+                    <h3 style="font-size: 26px; color: #fff; margin: 0 0 4px 0; font-family: 'Cormorant Garamond', serif; font-weight: 600;">Roast Beef</h3>
+                    <div style="color: #c9a84c; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px;">Corte Premium</div>
+                    <div style="width: 100%; height: 1px; background: rgba(201,168,76,0.2); margin-bottom: 16px;"></div>
+                    <p style="color: #ccc; font-size: 14px; line-height: 1.6; margin: 0 0 20px 0; font-family: 'Inter', sans-serif;">Corte jugoso y sabroso de la parte superior del lomo. Ideal para asado a la parrilla, al horno o a la plancha. Excelente para sándwiches tiernos y llenos de sabor. Versátil y muy popular.</p>
+                    <div style="margin-top: auto; display: flex; flex-wrap: wrap; gap: 8px;">
+                        <span style="border: 1px solid #c9a84c; color: #c9a84c; font-size: 11px; padding: 4px 10px; border-radius: 20px;">Parrilla</span>
+                        <span style="border: 1px solid #c9a84c; color: #c9a84c; font-size: 11px; padding: 4px 10px; border-radius: 20px;">Horno</span>
+                        <span style="border: 1px solid #c9a84c; color: #c9a84c; font-size: 11px; padding: 4px 10px; border-radius: 20px;">Plancha</span>
+                        <span style="border: 1px solid #c9a84c; color: #c9a84c; font-size: 11px; padding: 4px 10px; border-radius: 20px;">Sándwiches</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 2: Ojo de Bife -->
+            <div class="gallery-item" style="display: flex; flex-direction: column; background: #0a0a0a; border: 1px solid rgba(201,168,76,0.2); border-radius: 8px; overflow: hidden; height: 100%;">
+                <div style="width: 100%; height: 260px; overflow: hidden;">
+                    <img src="corte/jobig.png" alt="Ojo de Bife" style="width: 100%; height: 100%; object-fit: cover; object-position: center; border: none; display: block;">
+                </div>
+                <div style="padding: 24px; background: #050505; display: flex; flex-direction: column; flex-grow: 1;">
+                    <div style="align-self: flex-start; border: 1px solid #c9a84c; color: #c9a84c; font-size: 10px; font-weight: 600; padding: 4px 8px; border-radius: 4px; letter-spacing: 1px; margin-bottom: 12px; text-transform: uppercase;">Envasado al Vacío</div>
+                    <h3 style="font-size: 26px; color: #fff; margin: 0 0 4px 0; font-family: 'Cormorant Garamond', serif; font-weight: 600;">Ojo de Bife</h3>
+                    <div style="color: #c9a84c; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px;">Corte Premium</div>
+                    <div style="width: 100%; height: 1px; background: rgba(201,168,76,0.2); margin-bottom: 16px;"></div>
+                    <p style="color: #ccc; font-size: 14px; line-height: 1.6; margin: 0 0 20px 0; font-family: 'Inter', sans-serif;">Corte marmolado de altísima calidad. Su grasa intramuscular lo hace increíblemente sabroso y jugoso. Ideal a la parrilla o plancha, cocinado a punto jugoso para disfrutar al máximo.</p>
+                    <div style="margin-top: auto; display: flex; flex-wrap: wrap; gap: 8px;">
+                        <span style="border: 1px solid #c9a84c; color: #c9a84c; font-size: 11px; padding: 4px 10px; border-radius: 20px;">Parrilla</span>
+                        <span style="border: 1px solid #c9a84c; color: #c9a84c; font-size: 11px; padding: 4px 10px; border-radius: 20px;">Plancha</span>
+                        <span style="border: 1px solid #c9a84c; color: #c9a84c; font-size: 11px; padding: 4px 10px; border-radius: 20px;">Marmolado</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: Bife Angosto -->
+            <div class="gallery-item" style="display: flex; flex-direction: column; background: #0a0a0a; border: 1px solid rgba(201,168,76,0.2); border-radius: 8px; overflow: hidden; height: 100%;">
+                <div style="width: 100%; height: 260px; overflow: hidden;">
+                    <img src="corte/bf%20ango.png" alt="Bife Angosto" style="width: 100%; height: 100%; object-fit: cover; object-position: center; border: none; display: block;">
+                </div>
+                <div style="padding: 24px; background: #050505; display: flex; flex-direction: column; flex-grow: 1;">
+                    <div style="align-self: flex-start; border: 1px solid #c9a84c; color: #c9a84c; font-size: 10px; font-weight: 600; padding: 4px 8px; border-radius: 4px; letter-spacing: 1px; margin-bottom: 12px; text-transform: uppercase;">Envasado al Vacío</div>
+                    <h3 style="font-size: 26px; color: #fff; margin: 0 0 4px 0; font-family: 'Cormorant Garamond', serif; font-weight: 600;">Bife Angosto</h3>
+                    <div style="color: #c9a84c; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px;">Corte Premium</div>
+                    <div style="width: 100%; height: 1px; background: rgba(201,168,76,0.2); margin-bottom: 16px;"></div>
+                    <p style="color: #ccc; font-size: 14px; line-height: 1.6; margin: 0 0 20px 0; font-family: 'Inter', sans-serif;">Clásico de la parrilla argentina. Corte tierno con una veta de grasa que le da un sabor incomparable. A la parrilla o plancha, vuelta y vuelta, siempre queda espectacular.</p>
+                    <div style="margin-top: auto; display: flex; flex-wrap: wrap; gap: 8px;">
+                        <span style="border: 1px solid #c9a84c; color: #c9a84c; font-size: 11px; padding: 4px 10px; border-radius: 20px;">Parrilla</span>
+                        <span style="border: 1px solid #c9a84c; color: #c9a84c; font-size: 11px; padding: 4px 10px; border-radius: 20px;">Plancha</span>
+                        <span style="border: 1px solid #c9a84c; color: #c9a84c; font-size: 11px; padding: 4px 10px; border-radius: 20px;">Clásico</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4: Entraña -->
+            <div class="gallery-item" style="display: flex; flex-direction: column; background: #0a0a0a; border: 1px solid rgba(201,168,76,0.2); border-radius: 8px; overflow: hidden; height: 100%;">
+                <div style="width: 100%; height: 260px; overflow: hidden;">
+                    <img src="corte/92a3837d-c31a-454d-bb2c-911c20bbeb6d.png" alt="Entraña" style="width: 100%; height: 100%; object-fit: cover; object-position: center; border: none; display: block;">
+                </div>
+                <div style="padding: 24px; background: #050505; display: flex; flex-direction: column; flex-grow: 1;">
+                    <div style="align-self: flex-start; border: 1px solid #c9a84c; color: #c9a84c; font-size: 10px; font-weight: 600; padding: 4px 8px; border-radius: 4px; letter-spacing: 1px; margin-bottom: 12px; text-transform: uppercase;">Envasado al Vacío</div>
+                    <h3 style="font-size: 26px; color: #fff; margin: 0 0 4px 0; font-family: 'Cormorant Garamond', serif; font-weight: 600;">Entraña</h3>
+                    <div style="color: #c9a84c; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px;">Corte Premium</div>
+                    <div style="width: 100%; height: 1px; background: rgba(201,168,76,0.2); margin-bottom: 16px;"></div>
+                    <p style="color: #ccc; font-size: 14px; line-height: 1.6; margin: 0 0 20px 0; font-family: 'Inter', sans-serif;">Corte fino, tierno y muy sabroso, con el equilibrio justo entre carne y grasa. Ideal para la parrilla, se cocina rápido y queda jugosa por dentro con un exterior crocante.</p>
+                    <div style="margin-top: auto; display: flex; flex-wrap: wrap; gap: 8px;">
+                        <span style="border: 1px solid #c9a84c; color: #c9a84c; font-size: 11px; padding: 4px 10px; border-radius: 20px;">Parrilla</span>
+                        <span style="border: 1px solid #c9a84c; color: #c9a84c; font-size: 11px; padding: 4px 10px; border-radius: 20px;">Rápido</span>
+                        <span style="border: 1px solid #c9a84c; color: #c9a84c; font-size: 11px; padding: 4px 10px; border-radius: 20px;">Jugoso</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5: Lomo -->
+            <div class="gallery-item" style="display: flex; flex-direction: column; background: #0a0a0a; border: 1px solid rgba(201,168,76,0.2); border-radius: 8px; overflow: hidden; height: 100%;">
+                <div style="width: 100%; height: 260px; overflow: hidden;">
+                    <img src="corte/a13f7317-47e3-437c-b4ab-f192952e84d8.png" alt="Lomo" style="width: 100%; height: 100%; object-fit: cover; object-position: center; border: none; display: block;">
+                </div>
+                <div style="padding: 24px; background: #050505; display: flex; flex-direction: column; flex-grow: 1;">
+                    <div style="align-self: flex-start; border: 1px solid #c9a84c; color: #c9a84c; font-size: 10px; font-weight: 600; padding: 4px 8px; border-radius: 4px; letter-spacing: 1px; margin-bottom: 12px; text-transform: uppercase;">Envasado al Vacío</div>
+                    <h3 style="font-size: 26px; color: #fff; margin: 0 0 4px 0; font-family: 'Cormorant Garamond', serif; font-weight: 600;">Lomo</h3>
+                    <div style="color: #c9a84c; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px;">Corte Premium</div>
+                    <div style="width: 100%; height: 1px; background: rgba(201,168,76,0.2); margin-bottom: 16px;"></div>
+                    <p style="color: #ccc; font-size: 14px; line-height: 1.6; margin: 0 0 20px 0; font-family: 'Inter', sans-serif;">El corte más tierno de la res. Magro, suave y de sabor delicado. Perfecto para medallones a la parrilla o plancha. Ideal para quienes buscan una textura ultra tierna.</p>
+                    <div style="margin-top: auto; display: flex; flex-wrap: wrap; gap: 8px;">
+                        <span style="border: 1px solid #c9a84c; color: #c9a84c; font-size: 11px; padding: 4px 10px; border-radius: 20px;">Parrilla</span>
+                        <span style="border: 1px solid #c9a84c; color: #c9a84c; font-size: 11px; padding: 4px 10px; border-radius: 20px;">Plancha</span>
+                        <span style="border: 1px solid #c9a84c; color: #c9a84c; font-size: 11px; padding: 4px 10px; border-radius: 20px;">Tierno</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6: Tapa de Asado -->
+            <div class="gallery-item" style="display: flex; flex-direction: column; background: #0a0a0a; border: 1px solid rgba(201,168,76,0.2); border-radius: 8px; overflow: hidden; height: 100%;">
+                <div style="width: 100%; height: 260px; overflow: hidden;">
+                    <img src="corte/7cf8c6d6-dce3-4bf0-889c-ceb64d9ad790.png" alt="Tapa de Asado" style="width: 100%; height: 100%; object-fit: cover; object-position: center; border: none; display: block;">
+                </div>
+                <div style="padding: 24px; background: #050505; display: flex; flex-direction: column; flex-grow: 1;">
+                    <div style="align-self: flex-start; border: 1px solid #c9a84c; color: #c9a84c; font-size: 10px; font-weight: 600; padding: 4px 8px; border-radius: 4px; letter-spacing: 1px; margin-bottom: 12px; text-transform: uppercase;">Envasado al Vacío</div>
+                    <h3 style="font-size: 26px; color: #fff; margin: 0 0 4px 0; font-family: 'Cormorant Garamond', serif; font-weight: 600;">Tapa de Asado</h3>
+                    <div style="color: #c9a84c; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px;">Corte Premium</div>
+                    <div style="width: 100%; height: 1px; background: rgba(201,168,76,0.2); margin-bottom: 16px;"></div>
+                    <p style="color: #ccc; font-size: 14px; line-height: 1.6; margin: 0 0 20px 0; font-family: 'Inter', sans-serif;">Corte tradicional con buen equilibrio de carne y grasa. Ideal para parrilla u horno, se destaca por su sabor intenso y textura firme.</p>
+                    <div style="margin-top: auto; display: flex; flex-wrap: wrap; gap: 8px;">
+                        <span style="border: 1px solid #c9a84c; color: #c9a84c; font-size: 11px; padding: 4px 10px; border-radius: 20px;">Parrilla</span>
+                        <span style="border: 1px solid #c9a84c; color: #c9a84c; font-size: 11px; padding: 4px 10px; border-radius: 20px;">Horno</span>
+                        <span style="border: 1px solid #c9a84c; color: #c9a84c; font-size: 11px; padding: 4px 10px; border-radius: 20px;">Clásico</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 7: Vacío -->
+            <div class="gallery-item" style="display: flex; flex-direction: column; background: #0a0a0a; border: 1px solid rgba(201,168,76,0.2); border-radius: 8px; overflow: hidden; height: 100%;">
+                <div style="width: 100%; height: 260px; overflow: hidden;">
+                    <img src="corte/peceto.png" alt="Vacío" style="width: 100%; height: 100%; object-fit: cover; object-position: center; border: none; display: block;">
+                </div>
+                <div style="padding: 24px; background: #050505; display: flex; flex-direction: column; flex-grow: 1;">
+                    <div style="align-self: flex-start; border: 1px solid #c9a84c; color: #c9a84c; font-size: 10px; font-weight: 600; padding: 4px 8px; border-radius: 4px; letter-spacing: 1px; margin-bottom: 12px; text-transform: uppercase;">Envasado al Vacío</div>
+                    <h3 style="font-size: 26px; color: #fff; margin: 0 0 4px 0; font-family: 'Cormorant Garamond', serif; font-weight: 600;">Vacío</h3>
+                    <div style="color: #c9a84c; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px;">Corte Premium</div>
+                    <div style="width: 100%; height: 1px; background: rgba(201,168,76,0.2); margin-bottom: 16px;"></div>
+                    <p style="color: #ccc; font-size: 14px; line-height: 1.6; margin: 0 0 20px 0; font-family: 'Inter', sans-serif;">Uno de los favoritos del asado. Corte sabroso con fibras marcadas que, bien cocido a fuego lento, queda tierno y jugoso.</p>
+                    <div style="margin-top: auto; display: flex; flex-wrap: wrap; gap: 8px;">
+                        <span style="border: 1px solid #c9a84c; color: #c9a84c; font-size: 11px; padding: 4px 10px; border-radius: 20px;">Parrilla</span>
+                        <span style="border: 1px solid #c9a84c; color: #c9a84c; font-size: 11px; padding: 4px 10px; border-radius: 20px;">Jugoso</span>
+                        <span style="border: 1px solid #c9a84c; color: #c9a84c; font-size: 11px; padding: 4px 10px; border-radius: 20px;">Tradicional</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 8: Peceto -->
+            <div class="gallery-item" style="display: flex; flex-direction: column; background: #0a0a0a; border: 1px solid rgba(201,168,76,0.2); border-radius: 8px; overflow: hidden; height: 100%;">
+                <div style="width: 100%; height: 260px; overflow: hidden;">
+                    <img src="corte/d9ac821a-718d-424f-9a62-468620d18db8.png" alt="Peceto" style="width: 100%; height: 100%; object-fit: cover; object-position: center; border: none; display: block;">
+                </div>
+                <div style="padding: 24px; background: #050505; display: flex; flex-direction: column; flex-grow: 1;">
+                    <div style="align-self: flex-start; border: 1px solid #c9a84c; color: #c9a84c; font-size: 10px; font-weight: 600; padding: 4px 8px; border-radius: 4px; letter-spacing: 1px; margin-bottom: 12px; text-transform: uppercase;">Envasado al Vacío</div>
+                    <h3 style="font-size: 26px; color: #fff; margin: 0 0 4px 0; font-family: 'Cormorant Garamond', serif; font-weight: 600;">Peceto</h3>
+                    <div style="color: #c9a84c; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px;">Corte Premium</div>
+                    <div style="width: 100%; height: 1px; background: rgba(201,168,76,0.2); margin-bottom: 16px;"></div>
+                    <p style="color: #ccc; font-size: 14px; line-height: 1.6; margin: 0 0 20px 0; font-family: 'Inter', sans-serif;">Corte magro y de forma pareja. Ideal para horno, mechado o preparaciones frías como vitel toné. Su textura firme lo hace muy versátil en la cocina.</p>
+                    <div style="margin-top: auto; display: flex; flex-wrap: wrap; gap: 8px;">
+                        <span style="border: 1px solid #c9a84c; color: #c9a84c; font-size: 11px; padding: 4px 10px; border-radius: 20px;">Horno</span>
+                        <span style="border: 1px solid #c9a84c; color: #c9a84c; font-size: 11px; padding: 4px 10px; border-radius: 20px;">Magro</span>
+                        <span style="border: 1px solid #c9a84c; color: #c9a84c; font-size: 11px; padding: 4px 10px; border-radius: 20px;">Versátil</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divider WA 2 -->
+    <div class="wa-divider fade-in">
+        <a href="#contacto" class="btn btn-wa">¡Reservá tu pedido!</a>
+    </div>
+
+
+
+    <!-- Section 5: Catalog -->
+    <section class="catalog bg-even" id="catalogo">
+        <div class="catalog-grid-overlay"></div>
+        <div class="catalog-header fade-in">
+            <div class="section-tag">Selección</div>
+            <h2 class="section-h2">Nuestro Catálogo</h2>
+            <p class="catalog-desc">Una selección meticulosa de cortes supremos, diseñados para satisfacer las exigencias de la alta cocina y los verdaderos conocedores.</p>
+        </div>
+        
+        <div class="catalog-cards-container">
+            <div class="catalog-card fade-in">
+                <ul class="catalog-list">
+                    <li><span>Arañita</span> <div class="gold-dot"></div></li>
+                    <li><span>Bife Angosto</span> <div class="gold-dot"></div></li>
+                    <li><span>B. de Lomo</span> <div class="gold-dot"></div></li>
+                    <li><span>Brazuelo</span> <div class="gold-dot"></div></li>
+                    <li><span>Chingolo</span> <div class="gold-dot"></div></li>
+                    <li><span>C. Cuadril</span> <div class="gold-dot"></div></li>
+                    <li><span>Cuadrada</span> <div class="gold-dot"></div></li>
+                    <li><span>Cuadril</span> <div class="gold-dot"></div></li>
+                </ul>
+            </div>
+            
+            <div class="catalog-card fade-in">
+                <ul class="catalog-list">
+                    <li><span>Entraña</span> <div class="gold-dot"></div></li>
+                    <li><span>Garrón</span> <div class="gold-dot"></div></li>
+                    <li><span>Lomo</span> <div class="gold-dot"></div></li>
+                    <li><span>Matambre</span> <div class="gold-dot"></div></li>
+                    <li><span>Nalga</span> <div class="gold-dot"></div></li>
+                    <li><span>Ojo de Bife</span> <div class="gold-dot"></div></li>
+                    <li><span>Paleta</span> <div class="gold-dot"></div></li>
+                    <li><span>Peceto</span> <div class="gold-dot"></div></li>
+                </ul>
+            </div>
+            
+            <div class="catalog-card fade-in">
+                <ul class="catalog-list">
+                    <li><span>Peceto Feteado</span> <div class="gold-dot"></div></li>
+                    <li><span>Roast Beef</span> <div class="gold-dot"></div></li>
+                    <li><span>T. Asado</span> <div class="gold-dot"></div></li>
+                    <li><span>T. Cuadril</span> <div class="gold-dot"></div></li>
+                    <li><span>T. Nalga</span> <div class="gold-dot"></div></li>
+                    <li><span>T. Bife</span> <div class="gold-dot"></div></li>
+                    <li><span>Tortuguita</span> <div class="gold-dot"></div></li>
+                    <li><span>Vacío</span> <div class="gold-dot"></div></li>
+                    <li><span>Asado con Hueso 3 Costillas</span> <div class="gold-dot"></div></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divider WA 4 -->
+    <div class="wa-divider fade-in">
+        <a href="#contacto" class="btn btn-wa">¡Lo quiero ahora!</a>
+    </div>
+
+    <!-- Section 6: Why Choose Us -->
+    <section class="why-us bg-odd" id="diferencial">
+        <div class="why-header fade-in">
+            <div class="section-tag">Diferencial</div>
+            <h2 class="section-h2">Por qué elegir Duo Carnes</h2>
+        </div>
+        
+        <div class="why-grid">
+            <div class="why-card fade-in">
+                <div class="why-number">01</div>
+                <div class="why-line"></div>
+                <h3 class="why-title">Selección Rigurosa</h3>
+                <p class="why-desc">Cada corte es evaluado bajo estándares que garantizan consistencia y excelencia.</p>
+            </div>
+            <div class="why-card fade-in">
+                <div class="why-number">02</div>
+                <div class="why-line"></div>
+                <h3 class="why-title">Calidad Garantizada</h3>
+                <p class="why-desc">Trabajamos con proveedores certificados comprometidos con los más altos estándares.</p>
+            </div>
+            <div class="why-card fade-in">
+                <div class="why-number">03</div>
+                <div class="why-line"></div>
+                <h3 class="why-title">Atención Profesional</h3>
+                <p class="why-desc">Un equipo especializado que asesora en cada elección para que cada compra sea la correcta.</p>
+            </div>
+            <div class="why-card fade-in">
+                <div class="why-number">04</div>
+                <div class="why-line"></div>
+                <h3 class="why-title">Presentación Premium</h3>
+                <p class="why-desc">Cada producto llega con el cuidado y presentación que una marca de primer nivel exige.</p>
+            </div>
+            <div class="why-card fade-in">
+                <div class="why-number">05</div>
+                <div class="why-line"></div>
+                <h3 class="why-title">Consistencia Total</h3>
+                <p class="why-desc">La consistencia no es una promesa, es un estándar operativo que se cumple entrega a entrega.</p>
+            </div>
+            <div class="why-card fade-in">
+                <div class="why-number">06</div>
+                <div class="why-line"></div>
+                <h3 class="why-title">Identidad de Marca</h3>
+                <p class="why-desc">Una marca premium con identidad, propósito y compromiso claro con la calidad superior.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divider WA 5 -->
+    <div class="wa-divider fade-in">
+        <a href="#contacto" class="btn btn-wa">¡Sumá esto a tu pedido!</a>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- SECTION NEW D: FAQ -->
+    <section class="faq bg-even" id="faq">
+        <div class="faq-header fade-in">
+            <div class="section-tag">Preguntas frecuentes</div>
+            <h2 class="section-h2">Todo lo que necesitás <span class="gold-italic">saber</span></h2>
+        </div>
+        
+        <div class="faq-container fade-in">
+            <div class="faq-item">
+                <div class="faq-question">
+                    ¿Hacen envíos a domicilio?
+                    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                </div>
+                <div class="faq-answer">
+                    <p>Sí, realizamos envíos con cadena de frío garantizada. Consultanos por las zonas disponibles y los horarios de entrega según tu ubicación.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    ¿Venden al por mayor o solo minorista?
+                    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                </div>
+                <div class="faq-answer">
+                    <p>Trabajamos tanto con clientes particulares como con restaurantes, hoteles y empresas gastronómicas. Tenemos opciones especiales para pedidos mayoristas.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    ¿Cómo garantizan la frescura y la cadena de frío?
+                    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                </div>
+                <div class="faq-answer">
+                    <p>Todos nuestros productos se manipulan y transportan bajo estrictos protocolos de temperatura controlada, desde el origen hasta tu puerta.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    ¿Puedo pedir cortes específicos o con preparación especial?
+                    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                </div>
+                <div class="faq-answer">
+                    <p>Absolutamente. Contamos con un equipo especializado que puede adaptar cada corte según tus necesidades: grosor, porcionado, maduración y más.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    ¿Cómo hago un pedido?
+                    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                </div>
+                <div class="faq-answer">
+                    <p>Podés contactarnos por WhatsApp, email o Instagram. Te asesoramos, armamos tu pedido y coordinamos la entrega de forma simple y rápida.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Section 8: Contact -->
+    <section class="contact bg-odd contact-marble" id="contacto">
+        <div class="contact-radial-glow"></div>
+        <div class="expanding-rings">
+            <div class="ring"></div>
+        </div>
+        <div class="contact-content fade-in">
+            <div class="section-tag">Comenzar</div>
+            <h2 class="section-h2">Contáctanos</h2>
+            <p class="contact-desc">Te invitamos a contactar a nuestro equipo de asesores, explorar nuestro catálogo completo y comenzar una relación comercial basada en la absoluta confianza y superioridad del producto.</p>
+            
+            <div class="contact-actions" style="flex-direction: column; align-items: center; gap: 15px;">
+                <a href="https://wa.me/5491130201015?text=Hola!%20Quiero%20saber%20precios%20/%20info%20de%20la%20carne" target="_blank" rel="noopener noreferrer" class="btn btn-gold-fill" style="width: 100%; max-width: 300px;">Contactar a Dante</a>
+                <a href="https://wa.me/5492323551245?text=Hola!%20Quiero%20saber%20precios%20/%20info%20de%20la%20carne" target="_blank" rel="noopener noreferrer" class="btn btn-gold-fill" style="width: 100%; max-width: 300px;">Contactar a Lauty</a>
+            </div>
+            
+            <div class="contact-divider"></div>
+            
+            <div class="contact-info-row">
+                <div class="contact-item">
+                    <span class="contact-label">WhatsApp:</span>
+                    <span class="contact-value">Dante: 11 3020-1015<br>Lauty: 2323 55-1245</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-label">Instagram:</span>
+                    <span class="contact-value">@DUOCARNES</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 9: Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <img src="logo/estilo1_img.jpeg" alt="Duo Carnes Logo" class="logo-img-footer" style="max-height: 48px; object-fit: contain;">
+            </div>
+            <div class="footer-center">
+                &copy; 2025 Duo Carnes. Todos los derechos reservados.
+            </div>
+            <div class="footer-right">
+                PREMIUM · QUALITY · EXCELLENCE
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
